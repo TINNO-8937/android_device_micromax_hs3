@@ -30,3 +30,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/camera/s5k3p3st_sunny_v12bns_chromatix.xml.xml:system/etc/camera/s5k3p3st_sunny_v12bns_chromatix.xml \
     $(LOCAL_PATH)/configs/camera/s5k3p3_sunny_v12bn_chromatix.xml:system/etc/camera/s5k3p3_sunny_v12bn_chromatix.xml
 
+# Media
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/media_codecs_performance.xml:system/etc/media_codecs_performance.xml \
+    $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml
