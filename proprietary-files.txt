@@ -276,8 +276,8 @@ vendor/lib/libmmcamera_s5k3p3st_sunny_v12bns_eeprom.so
 
 # Fingerprint
 bin/gx_fpd
-lib64/hw/fingerprint.goodix.default.so
-lib64/hw/fingerprint.elan.default.so
+lib64/hw/fingerprint.goodix.default.so:lib64/hw/fingerprint.goodix.so
+lib64/hw/fingerprint.elan.default.so:lib64/hw/fingerprint.elan.so
 lib64/libgoodixfingerprintd_binder.so
 
 # Thermal
