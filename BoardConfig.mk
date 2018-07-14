@@ -18,11 +18,17 @@
 
 DEVICE_PATH := device/micromax/hs3
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := hs3
+
 # Kernel
 TARGET_KERNEL_CONFIG := hs3-perf_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
+
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Inherit from the proprietary version
 -include vendor/micromax/hs3/BoardConfigVendor.mk

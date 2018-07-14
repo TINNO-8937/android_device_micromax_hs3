@@ -1,0 +1,10 @@
+audio.dolby.ds2.enabled=true
+audio.dolby.ds2.hardbypass=true
+audio.offload.track.enable=true
+camera.aux.packagelist=org.codeaurora.snapcam,com.myos.camera,android.camera.cts
+persist.camera.mobicat=2
+persist.camera.stats.debugexif=4294901760
+ro.config.swap=true
+ro.config.zram=true
+ro.cutoff_voltage_mv=3400
+ro.sys.fw.bservice_enable=false
