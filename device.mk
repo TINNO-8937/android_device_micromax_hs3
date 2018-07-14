@@ -17,6 +17,10 @@
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/micromax/hs3/hs3-vendor.mk)
 
+# Local overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 # Inherit from msm8996-common
 $(call inherit-product, device/tinno/msm8937-common/msm8937.mk)
 
