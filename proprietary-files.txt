@@ -283,5 +283,9 @@ lib64/libgf_ca.so
 lib64/libgf_hal.so
 lib64/libgoodixfingerprintd_binder.so
 
+# Sensors
+lib/hw/sensors.msm8937.so
+lib64/hw/sensors.msm8937.so
+
 # Thermal
 etc/thermal-engine.conf
